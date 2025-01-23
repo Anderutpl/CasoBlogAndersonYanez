@@ -1,0 +1,192 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header img {
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+nav ul li a.current {
+    background-color: #4CAF50;
+    color: white; 
+    border-radius: 5px; 
+}
+
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+section {
+    margin-bottom: 20px;
+}
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+section p, section ul {
+    margin-bottom: 15px;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+
+
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+form div {
+    margin-bottom: 15px;
+}
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+form input, form textarea, form select, form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/*Tabla estilo de flora y fauna*/
+.biodiversity-table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.biodiversity-table th, .biodiversity-table td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: center; 
+}
+.biodiversity-table th {
+    background-color: #4CAF50;
+    color: white; 
+    font-weight: bold; 
+}
+.biodiversity-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+.biodiversity-table tr:hover {
+    background-color: #e8f5e9;
+}
+
+
+form button:hover {
+    background-color: #45a049;
+}
+.contact-info {
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f9f9; 
+    max-width: 400px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-info h3 {
+    color: #4CAF50; 
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
